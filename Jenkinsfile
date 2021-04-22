@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-                sh 'brew install python'
+                sh 'pip install python3.7.4'
             }
         }
         stage('Compile') { 
