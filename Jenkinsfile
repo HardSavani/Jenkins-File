@@ -6,5 +6,10 @@ pipeline {
                 sh 'python --version'
             }
         }
+        stage('Compile') { 
+            steps {
+                sh 'python sample.py'
+            }
+        }
     }
 }
