@@ -7,3 +7,6 @@ for i in range 5:
   print("Hi")
 j=0
 for(int i=0;i<n;i++)cout<<"hello";
+while(i<n){
+  i++;
+} 
