@@ -1,7 +1,8 @@
 print(1+2)
 print("It is working..")
 print(3+4)
-
+print(6)
+#updated in line 4
 
 i=0
 while(i<10):
@@ -55,7 +56,7 @@ def quick_sort(start, end, array):
         quick_sort(p + 1, end, array)
           
 # Driver code
-array = [ 10, 7, 8, 9, 1, 5 ]
+array = [ 10, 6, 8, 9, 1, 5 ] #updated
 quick_sort(0, len(array) - 1, array)
   
 print(f'Sorted array: {array}')
