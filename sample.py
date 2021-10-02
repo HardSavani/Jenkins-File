@@ -59,4 +59,4 @@ array = [ 10, 7, 8, 9, 1, 5 ]
 quick_sort(0, len(array) - 1, array)
   
 print(f'Sorted array: {array}')
-      
+printf("%d",5);
