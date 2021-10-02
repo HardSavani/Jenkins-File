@@ -12,5 +12,10 @@ pipeline {
                 sh 'python sample.py'
             }
         }
+        stage('Check Again') { 
+            steps {
+                sh 'python sample.py'
+            }
+        }
     }
 }
