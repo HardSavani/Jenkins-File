@@ -9,6 +9,5 @@ def tower_builder(n_floors):
         tower.append(a)
         print(a)
         n_floors-=1
-    return tower
 
 tower_builder(int(input()))
