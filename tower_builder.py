@@ -1,14 +1,14 @@
 def tower_builder(n_floors):
-    n_floors-=1 
+    n_floors-=1
     ast = 1
     tower = []
-    
+
     while n_floors >= 0:
-        a = n_floors*"b" + ast*"*" + n_floors*"b"
+        a = n_floors*" " + ast*"*"
         ast += 2
         tower.append(a)
-        print "a:",a
-        n_floors-=1 
+        print(a)
+        n_floors-=1
     return tower
 
-print tower_builder(3)
+tower_builder(int(input()))
